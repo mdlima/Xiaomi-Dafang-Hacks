@@ -6,9 +6,9 @@
 # Depends on curl, jq (json parser), openssl (SHA calculation)
 
 # owner name and repo name
-REPO="EliasKotlyar/Xiaomi-Dafang-Hacks"
+REPO="mdlima/Xiaomi-Dafang-Hacks"
 # Branch to use
-BRANCH="master"
+BRANCH="local-prod"
 # Initial remote folder
 REMOTEFOLDER="firmware_mod"
 # Default destination foler
