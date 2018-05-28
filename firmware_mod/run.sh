@@ -85,6 +85,9 @@ ir_cut on
 yellow_led off
 blue_led on
 
+# Flip video
+/system/sdcard/bin/setconf -k f -v 1
+
 ## Load motor driver module:
 insmod /system/sdcard/driver/sample_motor.ko
 # Don't calibrate the motors for now as for newer models the endstops don't work:
